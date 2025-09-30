@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Maryam — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "_ze1sOgLhau34myJW",
+      });
+    })();
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">Maryam.dev<span style="color:#9ae6c7"></span></div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div>
+        <h1>Hi, I'm Maryam — Frontend Developer & AI Specialist</h1>
+        <p>I design and develop responsive web applications with clean, modern interfaces.
+          Currently expanding my skills in Backend Development and Laravel.
+          Here are some of the projects I’ve created and contributed to.</p>
+        <a class="cta" href="#projects">View My Work</a>
+      </div>
+      <div class="avatar card">
+        <!-- Replace with your photo -->
+        <img src="images (9).jfif">
+      </div>
+    </section>
+
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>I’m a passionate Software Engineering student and a self-taught developer with a strong focus on building
+        intuitive and user-friendly frontend interfaces. Currently, I am learning Laravel for backend development and
+        exploring C# to expand my skills into desktop, enterprise, and game development. I am also curious about the
+        potential of Artificial Intelligence, which keeps me motivated to stay at the cutting edge of technology.</p>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Canva</div>
+        <div class="skill">PHP</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">Laravel</div>
+        <div class="skill">SEO</div>
+        <div class="skill">C#</div>
+         <div class="skill">UI/UX designing</div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project card">
+          <div>
+            <h3>Elite Interior</h3>
+            <p>A modern e-commerce platform designed for furniture and interior products, featuring product listings,
+              shopping cart, and responsive design.</p>
+          </div>
+          <a href="https://syeda804.github.io/Elite-Interior/" target="_blank" class="btn">Live Demo</a>
+        </article>
+
+        <article class="project card">
+          <div>
+            <h3>Quiz App</h3>
+            <p>Interactive quiz platform with timer and scoring — good for practice tests.</p>
+          </div>
+          <a href="https://syeda804.github.io/Quiz-App/" target="_blank" class="btn">Live Demo</a>
+        </article>
+
+        <article class="project card">
+          <div>
+            <h3>Velvet Chill</h3>
+            <p>A creative and colorful website designed for an ice cream brand, showcasing flavors, offers, and a modern
+              user-friendly design.</p>
+          </div>
+          <a href=" https://syeda804.github.io/Velvet-Chill/" target="_blank" class="btn">Live Demo</a>
+        </article>
+        <article class="project card">
+          <div>
+            <h3>Imran Khan – Personal & Political Journey Website</h3>
+            <p>An informational website highlighting the personal life, achievements, and political journey of Imran
+              Khan. Designed with a clean layout, easy navigation, and responsive interface for an engaging user
+              experience.</p>
+          </div>
+          <a href="https://imran-khan.vercel.app/" target="_blank" class="btn">Live Demo</a>
+        </article>
+        <article class="project card">
+          <div>
+            <h3>TripVibe–Travel Website</h3>
+            <p>A responsive travel website designed to inspire and assist users in planning trips. Features destination
+              highlights, travel packages, and a modern UI for smooth browsing.</p>
+          </div>
+          <a href=" https://syeda804.github.io/Velvet-Chill/" target="_blank" class="btn">Live Demo</a>
+        </article>
+        <article class="project card">
+          <div>
+            <h3>To-Do-List</h3>
+            <p>A simple and interactive To-Do List application that helps users add, edit, and delete daily tasks.
+              Designed with a clean UI and smooth functionality to enhance productivity.</p>
+          </div>
+          <a href=" https://syeda804.github.io/To-Do-List/" target="_blank" class="btn">Live Demo</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <p>If you’d like to get in touch, feel free to reach out through email or the form below.</p>
+
+      <div class="contact-info">
+        <p><strong>Email:</strong>
+          <a href="mailto:maryamali20098@gmail.com">maryamali20098@gmail.com</a>
+        </p>
+        <p><strong>Phone:</strong>03168052542</p>
+        <p><strong>Follow Me:</strong>
+          <a href="https://www.linkedin.com/in/syeda-maryam-5408382aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank">LinkedIn</a> |
+          <a href="https://github.com/syeda804" target="_blank">GitHub</a>
+        </p>
+      </div>
+      <form id="contact-form" class="contact-form">
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+
+
+      <footer>
+        <p>Designed by <span class="designer-name">Syeda Maryam Ali</span></p>
+        <p>&copy; 2025 All Rights Reserved</p>
+      </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
